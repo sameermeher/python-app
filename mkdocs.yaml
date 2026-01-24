@@ -1,0 +1,14 @@
+site_name: 'python-app'
+site_description: 'Main documentation for the python-app'
+repo_url: https://github.com/sameermeher/python-app
+edit_uri: edit/main/docs
+
+plugins:
+  - techdocs-core
+  - redirects:
+      redirect_maps:
+        'index.md': 'docs/index.md'
+
+nav:
+  - Overview:
+      - Getting started: 'docs/index.md'
