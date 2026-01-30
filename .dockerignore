@@ -1,0 +1,42 @@
+# Version Control
+.git/
+.gitignore
+
+# Python Virtual Environments
+venv/
+.venv/
+env/
+
+# Python Bytecode and Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Documentation
+docs/
+*.md
+!README.md
+
+# Distribution and Build Artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Testing and Coverage
+.tox/
+.pytest_cache/
+htmlcov/
+.coverage
+
+# IDE and Editor Settings
+.vscode/
+.idea/
+*.swp
+
+# Local Environment Variables
+.env
+
+# Docker
+Dockerfile
+.dockerignore
